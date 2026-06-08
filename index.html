@@ -3,21 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - O Futuro é Retrofuturista</title>
+    <title>Agrinho 2026 - Futuro Sustentável</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <header class="header">
-        <div class="header-container">
-            <h1 class="logo">Agrinho <span>2026</span></h1>
-            <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
-            <nav class="nav" id="navbarNav">
-                <ul>
-                    <li><a href="#introducao">Introdução</a></li>
-                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
-                    <li><a href="#tecnologia">Tecnologia</a></li>
-                    <li><a href="#impactos">Impactos</a></li>
-                    <li><a href="#linha-tempo">História Interativa</a></li>
-                    <li><a href="#comentarios">Mural</a></li>
-                </ul>
+        <div class="logo">
+            <i class="fa-solid fa-seedling"></i> Agrinho <span>2026</span>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#introducao">Introdução</a>
+            <a href="#sustentabilidade">Sustentabilidade</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#impactos">Impactos</a>
+            <a href="#linha-tempo">História Interativa</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="#comentarios">Comunidade</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Sustentabilidade, Tecnologia e Campo</h1>
+            <p>Conectando as raízes do passado com a inovação do futuro para alimentar o amanhã.</p>
+            <a href="#introducao" class="btn-retro">Explorar Universo</a>
+        </div>
+    </section>
+
+    <section id="introducao" class="section container">
+        <h2 class="section-title">O Projeto Agrinho 2026</h2>
+        <div class="grid-2">
+            <div class="text-box">
+                <p>O Agrinho 2026 traz como missão central a harmonia entre a tradição agrícola e a evolução tecnológica. Diante dos desafios climáticos globais, o campo se transforma no principal cenário de inovação.</p>
+                <p>Aqui, descobriremos como pequenas práticas e grandes tecnologias trabalham lado a lado para garantir uma produção de alimentos farta, limpa e que respeita o nosso planeta.</p>
+            </div>
+            <div class="visual-box badge-container">
+                <div class="retro-badge">🌱 Cultivando Conhecimento</div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="retro-divider">
+
+    <section id="sustentabilidade" class="section container">
+        <h2 class="section-title">Sustentabilidade no Campo</h2>
+        <p class="section-subtitle">Práticas essenciais para a saúde do ecossistema agrícola.</p>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fa-solid fa-droplet card-icon"></i>
+                <h3>Uso da Água</h3>
+                <p>Sistemas de irrigação gota a gota que evitam o desperdício, monitorando a umidade exata do solo.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-solar-panel card-icon"></i>
+                <h3>Energia Limpa</h3>
+                <p>Fazendas movidas a energia solar e biomassa, reduzindo drasticamente a pegada de carbono.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-recycle card-icon"></i>
+                <h3>Reciclagem & Solo</h3>
+                <p>Logística reversa de embalagens e compostagem orgânica para enriquecer a terra naturalmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="section section-alt">
+        <div class="container">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h4>Sensores IoT</h4>
+                    <p>Análise do solo em tempo real.</p>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>I.A. Agrícola</h4>
+                    <p>Previsão de safras e pragas.</p>
+                </div>
+                <div class="mini-card">
+            <h2 class="section-title">Tecnologia de Ponta</h2>
+            <div class="grid-4">
+                <div class="mini-card">
+                    <i class="fa-solid fa-helicopter"></i>
+                    <h4>Drones</h4>
+                    <p>Mapeamento térmico aéreo.</p>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h4>Sensores IoT</h4>
+                    <p>Análise do solo em tempo real.</p>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>I.A. Agrícola</h4>
+                    <p>Previsão de safras e pragas.</p>
+                </div>
+                <div class="mini-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h4>Automação</h4>
+                    <p>Tratores e robôs autônomos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impactos" class="section container">
+        <h2 class="section-title">Impactos Coletivos</h2>
+        <div class="grid-2">
+            <div class="card compact">
+                <h4><i class="fa-solid fa-tractor text-primary"></i> No Campo</h4>
+                <p>Produtores economizam insumos, aumentam a margem de lucro e protegem a longevidade de suas terras.</p>
+            </div>
+            <div class="card compact">
+                <h4><i class="fa-solid fa-city text-primary"></i> Nas Cidades</h4>
+                <p>Alimentos mais saudáveis, preços estáveis e garantia de segurança alimentar para a população.</p>
+            </div>
+            <div class="card compact">
+                <h4><i class="fa-solid fa-tree text-primary"></i> No Meio Ambiente</h4>
+                <p>Florestas nativas preservadas, rios protegidos e mitigação de gases estufa.</p>
+            </div>
+            <div class="card compact">
+                <h4><i class="fa-solid fa-chart-line text-primary"></i> Na Economia</h4>
+                <p>Fortalecimento do mercado verde internacional e geração de novos empregos tecnológicos no interior.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="retro-divider">
+
+    <section id="linha-tempo" class="section container">
+        <h2 class="section-title">A Evolução da Agricultura</h2>
+        <p class="section-subtitle">Clique nas eras abaixo para acompanhar como o campo se transformou.</p>
+        
+        <div class="timeline-nav">
+            <button class="btn-timeline active" data-era="passado">Agricultura 1.0 (Passado)</button>
+            <button class="btn-timeline" data-era="presente">Agricultura 3.0 (Presente)</button>
+            <button class="btn-timeline" data-era="futuro">Agrinho 2026 (Futuro)</button>
+        </div>
+
+        <div class="timeline-content-box" id="timelineContentBox">
+            <h3 id="timelineTitle">Agricultura 1.0</h3>
+            <p id="timelineText">Tração animal, ferramentas rudimentares de metal e forte dependência de fatores climáticos sazonais sem previsibilidade.</p>
+        </div>
+    </section>
+
+    <section id="cadastro" class="section section-alt">
+        <div class="container container-small">
+            <h2 class="section-title">Portal do Produtor</h2>
+            <p class="section-subtitle">Cadastre-se para receber relatórios de sustentabilidade.</p>
+            
+            <form id="formProdutor" class="retro-form" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Maria Silva">
+                    <span class="error-message" id="errNome">O nome precisa ter pelo menos 3 caracteres.</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email" id="email" name="email" placeholder="maria@fazenda.com">
+                    <span class="error-message" id="errEmail">Insira um e-mail válido.</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="propriedade">Nome da Propriedade Rural:</label>
+                    <input type="text" id="propriedade" name="propriedade" placeholder="Ex: Estância Vista Verde">
+                    <span class="error-message" id="errPropriedade">Informe o nome da sua propriedade.</span>
+                </div>
+
+                <button type="submit" class="btn-retro block">Finalizar Cadastro</button>
+                <div class="success-alert" id="successAlert">✨ Cadastro realizado com sucesso e salvo!</div>
+            </form>
+        </div>
+    </section>
+
+    <section id="comentarios" class="section container">
+        <h2 class="section-title">Mural da Comunidade</h2>
+        <p class="section-subtitle">Deixe sua ideia ou sugestão para o Agrinho 2026!</p>
+
+        <div class="grid-2">
+            <div class="comment-form-wrapper">
+                <form id="formComentario" class="retro-form">
+                    <div class="form-group">
+                        <label for="autor">Seu Nome:</label>
+                        <input type="text" id="autor" required placeholder="Seu nome ou escola...">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" rows="4" required placeholder="O que você achou da tecnologia no campo?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-retro">Publicar no Mural</button>
+                </form>
+            </div>
+
+            <div class="comments-display">
+                <h3>Mensagens Recentes</h3>
+                <div id="listaComentarios" class="comments-list">
+                    <p class="no-comments">Seja o primeiro a comentar!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="
